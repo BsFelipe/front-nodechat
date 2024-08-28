@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 function Signup() {
   return (
@@ -76,7 +76,7 @@ function Signup() {
         </form>
         <div className="flex items-center justify-center mt-4">
           <Link to="/login" className="text-sm text-indigo-600 hover:text-indigo-500">
-          Já tem uma conta? Login
+            Já tem uma conta? Login
           </Link>
         </div>
       </div>

@@ -1,5 +1,5 @@
-import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import React from 'react';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -8,6 +8,7 @@ export default function Footer() {
         <p className="text-sm text-gray-400">© 2024 Felipe Belo</p>
         <div className="flex items-center space-x-4">
           <a
+            alt="linkedin"
             href="https://www.linkedin.com/in/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
@@ -16,6 +17,7 @@ export default function Footer() {
             <FaLinkedin size={24} />
           </a>
           <a
+            alt="gitbub"
             href="https://github.com/yourusername"
             target="_blank"
             rel="noopener noreferrer"

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 function Login() {
   return (
@@ -8,7 +8,7 @@ function Login() {
         <h2 className="text-2xl font-bold text-center text-gray-900">Login</h2>
         <form className="space-y-4">
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+            <label aria-label="Email" htmlFor="email" className="block text-sm font-medium text-gray-700">
               Email
             </label>
             <input
@@ -39,11 +39,11 @@ function Login() {
           </button>
         </form>
         <div className="flex items-center justify-between mt-4">
-          <a href="#" className="text-sm text-indigo-600 hover:text-indigo-500">
+          <a href="/" className="text-sm text-indigo-600 hover:text-indigo-500">
             Esqueci a senha
           </a>
           <Link to="/signup" className="text-sm text-indigo-600 hover:text-indigo-500">
-          Cadastre-se
+            Cadastre-se
           </Link>
         </div>
       </div>
